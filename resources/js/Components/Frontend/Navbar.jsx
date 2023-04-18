@@ -11,7 +11,7 @@ export default function Navbar() {
 
                 <nav id="navbar" className="navbar">
                     <ul>
-                        <li><Link href={route('home')} className={ window.location.href == (route('home') + '/') ? "active" : ""}>Home</Link></li>
+                        <li><Link href={route('home')} className={ route().current('home') ? "active" : ""}>Home</Link></li>
                         <li className="dropdown">
                             <a href="#"><span>Collection</span>
                                 <i className="bi bi-chevron-down dropdown-indicator"></i>
@@ -32,8 +32,8 @@ export default function Navbar() {
                                 </li>
                             </ul>
                         </li>
-                        <li><Link href={route('about')} className={ window.location.href == route('about') ? "active" : ""}>About Me</Link></li>
-                        <li><Link href={route('contact')} className={ window.location.href == route('contact') ? "active" : ""}>Contact</Link></li>
+                        <li><Link href={route('about')} className={ route().current('about') ? "active" : ""}>About Me</Link></li>
+                        <li><Link href={route('contact')} className={ route().current('contact') ? "active" : ""}>Contact</Link></li>
                     </ul>
                 </nav>
 

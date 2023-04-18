@@ -13,7 +13,7 @@ export default function Dashboard() {
                             <div className="card-body py-0 px-0 px-sm-3">
                                 <div className="row align-items-center">
                                     <div className="col-4 col-sm-3 col-xl-2">
-                                        <img src="backend/assets/images/dashboard/Group126@2x.png" className="gradient-corona-img img-fluid" alt="" />
+                                        <img src="/backend/assets/images/dashboard/Group126@2x.png" className="gradient-corona-img img-fluid" alt="" />
                                     </div>
                                     <div className="col-5 col-sm-7 col-xl-8 p-0">
                                         <h4 className="mb-1 mb-sm-0">Want even more features?</h4>
@@ -334,7 +334,7 @@ export default function Dashboard() {
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <img src="backend/assets/images/faces/face1.jpg" alt="image" />
+                                                    <img src="/backend/assets/images/faces/face1.jpg" alt="image" />
                                                     <span className="pl-2">Henry Klein</span>
                                                 </td>
                                                 <td> 02312 </td>
@@ -355,7 +355,7 @@ export default function Dashboard() {
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <img src="backend/assets/images/faces/face2.jpg" alt="image" />
+                                                    <img src="/backend/assets/images/faces/face2.jpg" alt="image" />
                                                     <span className="pl-2">Estella Bryan</span>
                                                 </td>
                                                 <td> 02312 </td>
@@ -376,7 +376,7 @@ export default function Dashboard() {
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <img src="backend/assets/images/faces/face5.jpg" alt="image" />
+                                                    <img src="/backend/assets/images/faces/face5.jpg" alt="image" />
                                                     <span className="pl-2">Lucy Abbott</span>
                                                 </td>
                                                 <td> 02312 </td>
@@ -397,7 +397,7 @@ export default function Dashboard() {
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <img src="backend/assets/images/faces/face3.jpg" alt="image" />
+                                                    <img src="/backend/assets/images/faces/face3.jpg" alt="image" />
                                                     <span className="pl-2">Peter Gill</span>
                                                 </td>
                                                 <td> 02312 </td>
@@ -418,7 +418,7 @@ export default function Dashboard() {
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <img src="backend/assets/images/faces/face4.jpg" alt="image" />
+                                                    <img src="/backend/assets/images/faces/face4.jpg" alt="image" />
                                                     <span className="pl-2">Sallie Reyes</span>
                                                 </td>
                                                 <td> 02312 </td>
@@ -448,7 +448,7 @@ export default function Dashboard() {
                                 <div className="preview-list">
                                     <div className="preview-item border-bottom">
                                         <div className="preview-thumbnail">
-                                            <img src="backend/assets/images/faces/face6.jpg" alt="image" className="rounded-circle" />
+                                            <img src="/backend/assets/images/faces/face6.jpg" alt="image" className="rounded-circle" />
                                         </div>
                                         <div className="preview-item-content d-flex flex-grow">
                                             <div className="flex-grow">
@@ -462,7 +462,7 @@ export default function Dashboard() {
                                     </div>
                                     <div className="preview-item border-bottom">
                                         <div className="preview-thumbnail">
-                                            <img src="backend/assets/images/faces/face8.jpg" alt="image" className="rounded-circle" />
+                                            <img src="/backend/assets/images/faces/face8.jpg" alt="image" className="rounded-circle" />
                                         </div>
                                         <div className="preview-item-content d-flex flex-grow">
                                             <div className="flex-grow">
@@ -476,7 +476,7 @@ export default function Dashboard() {
                                     </div>
                                     <div className="preview-item border-bottom">
                                         <div className="preview-thumbnail">
-                                            <img src="backend/assets/images/faces/face9.jpg" alt="image" className="rounded-circle" />
+                                            <img src="/backend/assets/images/faces/face9.jpg" alt="image" className="rounded-circle" />
                                         </div>
                                         <div className="preview-item-content d-flex flex-grow">
                                             <div className="flex-grow">
@@ -490,7 +490,7 @@ export default function Dashboard() {
                                     </div>
                                     <div className="preview-item border-bottom">
                                         <div className="preview-thumbnail">
-                                            <img src="backend/assets/images/faces/face11.jpg" alt="image" className="rounded-circle" />
+                                            <img src="/backend/assets/images/faces/face11.jpg" alt="image" className="rounded-circle" />
                                         </div>
                                         <div className="preview-item-content d-flex flex-grow">
                                             <div className="flex-grow">
@@ -512,20 +512,20 @@ export default function Dashboard() {
                                 <h4 className="card-title">Portfolio Slide</h4>
                                 <OwlCarousel className='owl-theme' loop margin={10} items='1' autoplay="true">
                                     <div className="item">
-                                        <img src="backend/assets/images/dashboard/Rectangle.jpg" alt="" />
+                                        <img src="/backend/assets/images/dashboard/Rectangle.jpg" alt="" />
                                     </div>
                                     <div className="item">
-                                        <img src="backend/assets/images/dashboard/Img_5.jpg" alt="" />
+                                        <img src="/backend/assets/images/dashboard/Img_5.jpg" alt="" />
                                     </div>
                                     <div className="item">
-                                        <img src="backend/assets/images/dashboard/img_6.jpg" alt="" />
+                                        <img src="/backend/assets/images/dashboard/img_6.jpg" alt="" />
                                     </div>
                                 </OwlCarousel>
                                 <div className="d-flex py-4">
                                     <div className="preview-list w-100">
                                         <div className="preview-item p-0">
                                             <div className="preview-thumbnail">
-                                                <img src="backend/assets/images/faces/face12.jpg" className="rounded-circle" alt="" />
+                                                <img src="/backend/assets/images/faces/face12.jpg" className="rounded-circle" alt="" />
                                             </div>
                                             <div className="preview-item-content d-flex flex-grow">
                                                 <div className="flex-grow">

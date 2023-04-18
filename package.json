@@ -19,6 +19,7 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
+        "react-hot-toast": "^2.4.0",
         "react-owl-carousel": "^2.3.3"
     }
 }

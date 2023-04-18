@@ -1,0 +1,12 @@
+.hide-upload-button {
+    display: none;
+}
+
+.upload-button-label {
+    border: 2px dashed #4b5564;
+    border-radius: 10px;
+    padding: 100px 0;
+    color: #4b5564;
+    font-weight: bold;
+    text-align: center;
+}

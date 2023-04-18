@@ -6,7 +6,7 @@ import TextInput from '@/Components/TextInput';
 import { Head, useForm } from '@inertiajs/react';
 import FrontendLayout from "@/Layouts/FrontendLayout";
 
-export default function Login({ status, canResetPassword }) {
+export default function Login({ status }) {
     const { data, setData, post, processing, errors, reset } = useForm({
         email: '',
         password: '',
@@ -78,9 +78,9 @@ export default function Login({ status, canResetPassword }) {
 
                                     <div className="text-center">
 
-                                        <div className="">
+                                        <div>
                                             <label className="d-flex justify-content-center">
-                                                <Checkbox name="remember" value={data.remember} onChange={handleOnChange}/>
+                                                <Checkbox name="remember" defaultValue={data.remember} onChange={handleOnChange}/>
                                                 <span style={{ paddingLeft : 10, marginTop : 10 }}>Remember me</span>
                                             </label>
                                         </div>

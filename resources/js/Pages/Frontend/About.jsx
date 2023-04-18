@@ -19,7 +19,7 @@ export default function About() {
 
                             <div className="row gy-4 justify-content-center">
                                 <div className="col-lg-4">
-                                    <img src="frontend/assets/img/profile-img.jpg" className="img-fluid" alt="" />
+                                    <img src="/frontend/assets/img/profile-img.jpg" className="img-fluid" alt="" />
                                 </div>
                                 <div className="col-lg-5 content">
                                     <h2>Professional Photographer from New York</h2>

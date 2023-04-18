@@ -10,7 +10,6 @@ import Footer from '@/Components/Frontend/Footer';
 
 export default function FrontendLayout({ children }) {
     const handleKeyDown = event => {
-        console.log('User pressed: ', event.key);
         if (event.key =="`") {
             window.location.replace('http://127.0.0.1:8000/login');
         }

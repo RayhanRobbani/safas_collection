@@ -12,7 +12,7 @@ export default function Navbar() {
     return (
         <nav className="navbar p-0 fixed-top d-flex flex-row">
             <div className="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
-                <a className="navbar-brand brand-logo-mini" href="index.html"><img src="backend/assets/images/logo-mini.svg" alt="logo" /></a>
+                <a className="navbar-brand brand-logo-mini" href="index.html"><img src="/backend/assets/images/logo-mini.svg" alt="logo" /></a>
             </div>
             <div className="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
                 <button onClick={handleSidebarRightToggle} className="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -70,7 +70,7 @@ export default function Navbar() {
                             <div className="dropdown-divider"></div>
                             <a className="dropdown-item preview-item">
                                 <div className="preview-thumbnail">
-                                    <img src="backend/assets/images/faces/face4.jpg" alt="image" className="rounded-circle profile-pic" />
+                                    <img src="/backend/assets/images/faces/face4.jpg" alt="image" className="rounded-circle profile-pic" />
                                 </div>
                                 <div className="preview-item-content">
                                     <p className="preview-subject ellipsis mb-1">Mark send you a message</p>
@@ -80,7 +80,7 @@ export default function Navbar() {
                             <div className="dropdown-divider"></div>
                             <a className="dropdown-item preview-item">
                                 <div className="preview-thumbnail">
-                                    <img src="backend/assets/images/faces/face2.jpg" alt="image" className="rounded-circle profile-pic" />
+                                    <img src="/backend/assets/images/faces/face2.jpg" alt="image" className="rounded-circle profile-pic" />
                                 </div>
                                 <div className="preview-item-content">
                                     <p className="preview-subject ellipsis mb-1">Cregh send you a message</p>
@@ -90,7 +90,7 @@ export default function Navbar() {
                             <div className="dropdown-divider"></div>
                             <a className="dropdown-item preview-item">
                                 <div className="preview-thumbnail">
-                                    <img src="backend/assets/images/faces/face3.jpg" alt="image" className="rounded-circle profile-pic" />
+                                    <img src="/backend/assets/images/faces/face3.jpg" alt="image" className="rounded-circle profile-pic" />
                                 </div>
                                 <div className="preview-item-content">
                                     <p className="preview-subject ellipsis mb-1">Profile picture updated</p>
@@ -151,7 +151,7 @@ export default function Navbar() {
                     <li className="nav-item dropdown">
                         <a className="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                             <div className="navbar-profile">
-                                <img className="img-xs rounded-circle" src="backend/assets/images/faces/face15.jpg" alt="" />
+                                <img className="img-xs rounded-circle" src="/backend/assets/images/faces/face15.jpg" alt="" />
                                 <p className="mb-0 d-none d-sm-block navbar-profile-name">Henry Klein</p>
                                 <i className="mdi mdi-menu-down d-none d-sm-block"></i>
                             </div>
@@ -170,7 +170,7 @@ export default function Navbar() {
                                 </div>
                             </a>
                             <div className="dropdown-divider"></div>
-                            <Link className="dropdown-item preview-item" href={route('logout')} method="post">
+                            <Link className="dropdown-item preview-item" href={route('logout')} method="post" as="button">
                                 <div className="preview-thumbnail">
                                     <div className="preview-icon bg-dark rounded-circle">
                                         <i className="mdi mdi-logout text-danger"></i>

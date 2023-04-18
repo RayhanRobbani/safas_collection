@@ -4,15 +4,15 @@ export default function Sidebar() {
     return (
         <nav className="sidebar sidebar-offcanvas" id="sidebar">
             <div className="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-                <a className="sidebar-brand brand-logo" href="index.html"><img src="backend/assets/images/logo.svg" alt="logo" /></a>
-                <a className="sidebar-brand brand-logo-mini" href="index.html"><img src="backend/assets/images/logo-mini.svg" alt="logo" /></a>
+                <a className="sidebar-brand brand-logo" href="index.html"><img src="/backend/assets/images/logo.svg" alt="logo" /></a>
+                <a className="sidebar-brand brand-logo-mini" href="index.html"><img src="/backend/assets/images/logo-mini.svg" alt="logo" /></a>
             </div>
             <ul className="nav">
                 <li className="nav-item profile">
                     <div className="profile-desc">
                         <div className="profile-pic">
                             <div className="count-indicator">
-                                <img className="img-xs rounded-circle " src="backend/assets/images/faces/face15.jpg" alt="" />
+                                <img className="img-xs rounded-circle " src="/backend/assets/images/faces/face15.jpg" alt="" />
                                 <span className="count bg-success"></span>
                             </div>
                             <div className="profile-name">
@@ -60,7 +60,7 @@ export default function Sidebar() {
                 <li className="nav-item nav-category">
                     <span className="nav-link">Navigation</span>
                 </li>
-                <li className={ window.location.href == route('dashboard') ? "nav-item menu-items active" : "nav-item menu-items"}>
+                <li className={ route().current('dashboard') ? "nav-item menu-items active" : "nav-item menu-items" }>
                     <Link className="nav-link" href={route('dashboard')}>
                         <span className="menu-icon">
                             <i className="mdi mdi-speedometer"></i>
@@ -68,7 +68,7 @@ export default function Sidebar() {
                         <span className="menu-title">Dashboard</span>
                     </Link>
                 </li>
-                <li className="nav-item menu-items">
+                <li className={ route().current('collection.*') ? "nav-item menu-items active" : "nav-item menu-items" }>
                     <a className="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
                         <span className="menu-icon">
                             <i className="mdi mdi-coin"></i>
@@ -76,10 +76,10 @@ export default function Sidebar() {
                         <span className="menu-title">Collection</span>
                         <i className="menu-arrow"></i>
                     </a>
-                    <div className="collapse" id="ui-basic">
+                    <div className={ route().current('collection.*') ? "collapse show" : "collapse" } id="ui-basic">
                         <ul className="nav flex-column sub-menu">
-                            <li className="nav-item"> <a className="nav-link" href="pages/ui-features/buttons.html">Add New</a></li>
-                            <li className="nav-item"> <a className="nav-link" href="pages/ui-features/dropdowns.html">Manage All</a></li>
+                            <li className="nav-item"> <Link className={ route().current('collection.create') ? "nav-link text-white" : "nav-link" } href={route('collection.create')}>Add New</Link></li>
+                            <li className="nav-item"> <Link className={ route().current('collection.index') ? "nav-link text-white" : "nav-link" } href={route('collection.index')}>Manage All</Link></li>
                         </ul>
                     </div>
                 </li>

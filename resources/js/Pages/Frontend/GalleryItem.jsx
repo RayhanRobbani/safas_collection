@@ -16,22 +16,22 @@ export default function GalleryItem() {
 
                             <OwlCarousel className='owl-theme' loop margin={10} items='1' autoplay="true">
                                 <div class="item">
-                                    <img src="frontend/assets/img/gallery/gallery-8.jpg" alt="" />
+                                    <img src="/frontend/assets/img/gallery/gallery-8.jpg" alt="" />
                                 </div>
                                 <div class="item">
-                                    <img src="frontend/assets/img/gallery/gallery-9.jpg" alt="" />
+                                    <img src="/frontend/assets/img/gallery/gallery-9.jpg" alt="" />
                                 </div>
                                 <div class="item">
-                                    <img src="frontend/assets/img/gallery/gallery-10.jpg" alt="" />
+                                    <img src="/frontend/assets/img/gallery/gallery-10.jpg" alt="" />
                                 </div>
                                 <div class="item">
-                                    <img src="frontend/assets/img/gallery/gallery-11.jpg" alt="" />
+                                    <img src="/frontend/assets/img/gallery/gallery-11.jpg" alt="" />
                                 </div>
                                 <div class="item">
-                                    <img src="frontend/assets/img/gallery/gallery-12.jpg" alt="" />
+                                    <img src="/frontend/assets/img/gallery/gallery-12.jpg" alt="" />
                                 </div>
                                 <div class="item">
-                                    <img src="frontend/assets/img/gallery/gallery-13.jpg" alt="" />
+                                    <img src="/frontend/assets/img/gallery/gallery-13.jpg" alt="" />
                                 </div>
                             </OwlCarousel>
 
@@ -54,7 +54,7 @@ export default function GalleryItem() {
                                                 <i className="bi bi-quote quote-icon-right"></i>
                                             </p>
                                             <div>
-                                                <img src="frontend/assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
+                                                <img src="/frontend/assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
                                                 <h3>Sara Wilsson</h3>
                                                 <h4>Designer</h4>
                                             </div>
